@@ -1,4 +1,94 @@
+/* This is a comment */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* this is an id, best use classes whenever possible rather than ids*/
+#the-one {
+  color: blueviolet;
+  color: rgb(0, 0, 255);
+  color: rgba(0, 0, 225, 0.3);
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+body {
+  background-color: black;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url("/img/airforceindie.jpg");
+}
+
+.new-color {
+  color: blueviolet;
+  color: rgb(0, 0, 255);
+  color: rgba(0, 0, 225, 0.3);
+  background-color: white;
+}
+
 h1 {
-  color: red;
-  background-color: lightyellow;
+  color: green;
+  background-color: white;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-left: 0.5rem;
+}
+/* the a stands for the alpla channel */
+h1 {
+  color: blueviolet;
+  color: rgb(0, 0, 255);
+  color: rgba(0, 0, 225, 0.3);
+  background-color: white;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  /*letter-spacing: -0.2rem;*/
+  word-spacing: 0.3rem;
+  margin-left: 0.5rem;
+}
+
+/* make images responsive*/
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: lightpink;
+  background-color: lightgrey;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lightblue;
+}
+
+.box {
+  background-color: lightpink;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid gray;
+  margin: 30px;
+}
+
+.standard-box {
+  box-sizing: content-box;
+}
+.border-box {
+  box-sizing: border-box;
 }
